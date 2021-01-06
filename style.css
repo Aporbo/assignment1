@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
     font-size: 50px;
@@ -14,13 +14,13 @@ p{
 .orange-highlight{
     color: orange;
 }
-.half-width{
+.fist-div{
     width: 26%;
     float:left;
     margin-left: 5%;
     padding-left: 2%;
 }
-.half-width img{
+.fist-div img{
     width: 100%;
 }
 
@@ -31,66 +31,53 @@ section{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 10px 50px;
+    border-radius: 7px;
     color: white;
     font-weight: 700;
+    
 }
 
-.single-experience{
+.project-photo{
     background-image: url(box/box1.jpg);
     border-radius: 5px;
     height: 90%;
     background-color: white;
 }
-footer p{
-    text-align: center;
-    font-size: 12px;
-}
+
+
 #center{
+    padding-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
 }
-.experience-area{
+.projects{
+    margin-top: 3%;
     background-color: rgb(243, 243, 243);
 }
-.background1{    
+.background{    
 background-image: url("shapes/Group_33094_1.png"); 
+margin-top: 3%;
 margin-left: 15%;
   width: 700px;
-  height:100px; 
+  height:150px; 
   background-position: center; 
   background-repeat: no-repeat; 
-border-radius: 10px;
+border-radius: 20px;
 }
-.background2{    
-    background-image: url("shapes/Group_33094_1.png"); 
-    margin-left: 15%;
-      width: 700px;
-      height:100px; 
-      background-position: center; 
-      background-repeat: no-repeat; 
-    border-radius: 10px;
-    }
 .text{
-    padding-top: 20px;
+    color: white;
+    float: left;
+    padding-top: 40px;
     padding-left: 50px;
 }
-.text-link{
-    text-align: right;
-    padding-bottom: 3cm;
+.text2{
+    float: left;
+    margin-left: 150px;
+    padding-top: 40px;
     padding-left: 50px;
 }
-.background1{
-    height: 150px;
-    width: 50%;
-    float:left;
-    margin-left: 10%;
-}
-.background2{
-    width: 10%;
-    float:left;
-    margin-left: 10%;
-}
+
 .link-button2{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
@@ -101,4 +88,19 @@ border-radius: 10px;
 }
 .sec{
     padding-top: 150px;
+}
+#ashcolor{
+    text-align: center;
+    color: rgb(143, 141, 141);
+}
+.bottom-style{
+    text-align: center;
+}
+.addbottomphoto{
+    float:left;
+}
+.img{
+    padding-left: 250px;
+    height: 20px;
+    width: 20px;
 }
